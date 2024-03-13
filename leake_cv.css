@@ -28,7 +28,7 @@ body{
 }
 .resume_wrapper, .resume_left, .resume_image img{
     width:100%
-    display:block;
+    display:auto;
 } 
 .resume_wrapper, .resume_title{
     color:#fff;
