@@ -6,7 +6,7 @@
     list-style:none;
 }
 body{
-    background:rgb(196, 191, 187);
+    background:rgb(230, 228, 226);
     display:flex;
     justify-content: cneter;
     align-items: center;
@@ -19,9 +19,9 @@ body{
     display: flex;
     width:1000px;
     min-height: 1000px;
-    margin:50px auto;
+    margin:10px auto;
     background:#fff;
-    padding:10px;
+    padding:20px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
@@ -46,7 +46,7 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: auto;
 
 }
 .profiletext .image img{
@@ -83,28 +83,33 @@ body{
     margin-bottom: 20px;
 
 }
-.contact_info ul{
+.contact_info .ul{
     position: relative;
 
 }
-.contact_info ul li{
+.contact_info .ul .li{
     position: relative;
     list-style: name;
-    margin: 10px 0;
+    margin: 5px 0;
     cursor: pointer;
 }
-.contact_info ul li .icon{
+.contact_info .ul .li .icon{
     display: inline-block;
     width: 30px;
     font-size: 18px;
     color: #03a9f4;
 }
-.contact_info ul li span{
+.contact_info .ul .li span{
     color: #fff;
     font-weight: 300;
+
+}
+.contact_info.education{
+    border-top: 2px solid rgba(231, 223, 223, 0.774);
 }
 .contact_info.education li{
     margin-bottom: 15px;
+    border-top: 1px solid rgba(100, 223, 223, 0.774);
 }
 .contact_info.education h5{
     color: #03a9f4;
@@ -180,5 +185,5 @@ p{
     top: 0;
     left: 0;
     height: 100%;
-    background: #c07a11;
+    background: #3111c0;
 }
